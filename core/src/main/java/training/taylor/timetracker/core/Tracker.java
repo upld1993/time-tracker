@@ -16,6 +16,7 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
+        system.out.println("hell");
         if (true)
             entries.remove(entry);
 
